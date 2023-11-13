@@ -93,6 +93,7 @@ sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
   
 curl http://localhost
 
+#reload
 systemctl reload apache2
 
 
