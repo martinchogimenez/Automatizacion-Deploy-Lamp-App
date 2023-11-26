@@ -76,7 +76,7 @@ INSERT INTO products (Name,Price,ImageUrl) VALUES ("Laptop","100","c-1.png"),("D
 EOF
 mysql < db-load-script.sql
 
-
+###Clonado del repositorio
 
 if [ -d "$REPO" ] ;
 then    
